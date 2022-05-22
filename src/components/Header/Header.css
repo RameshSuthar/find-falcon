@@ -1,0 +1,19 @@
+.Nav-list-wrapper {
+    display: flex;
+    padding: 0 100px;
+    margin: auto;
+    background-color: #e7e7e7;
+}
+
+.Nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+}
+
+.Nav-item a {
+    color: black;
+    text-decoration: none;
+}

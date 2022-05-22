@@ -1,0 +1,55 @@
+.Home-planet-vehicle-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.Home-main {
+    display: flex;
+    flex-direction: column;
+    max-height: 90%;
+    width: calc(100% - 200px);
+    margin: 20px auto;
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    color: #4e4e4e;
+}
+
+.Home-find-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Home-find-btn-wrapper button {
+    color: rgb(0, 0, 0);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+    padding: 5px 10px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #9999ff;
+}
+
+.Home-planet-vehicle-time-wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.Home-time-required {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+@media screen and (max-width: 640px) {
+    .Home-main{
+        width: 100%;
+    }
+}

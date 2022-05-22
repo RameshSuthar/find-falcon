@@ -1,0 +1,48 @@
+.PlanetVehicleBox-wrapper {
+    height: 320px;
+}
+.PlanetVehicleBox-vehicle-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 1rem;
+}
+
+.PlanetVehicleBox-vehicle-list label {
+    margin-left: 10px;
+}
+
+.disable {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+select {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 8em;
+    height: 2.3em;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.5em center / 1.2em, linear-gradient(to left, rgb(0 0 0 / 30%) 2em, rgb(12 12 12 / 20%) 2em);
+    padding: 0 4em 0 1em;
+    color: rgb(0, 0, 0);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  select option {
+    color: inherit;
+    background-color: #949494;;
+  }
+
+  select:focus {
+      outline: none;
+  }
+
+  select::-ms-expand{
+      display: none;
+  }
+  

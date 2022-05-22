@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.App-container {
+  width: calc(100% - 200px);
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+.Result-main {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 20px;
+    background-color: #d7d7d7;
+    border-radius: 2px;
+}
